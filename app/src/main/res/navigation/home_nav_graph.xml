@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.cinevibes.ui.home.fragment.StartFragment"
+        android:label="@string/inizia_la_ricerca"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_platformsFragment"
+            app:destination="@id/platformsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.cinevibes.ui.home.fragment.SearchFragment"
+        android:label="@string/esplora"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.cinevibes.ui.home.fragment.ListFragment"
+        android:label="@string/la_mia_lista"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.cinevibes.ui.home.fragment.SettingsFragment"
+        android:label="@string/impostazioni"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/platformsFragment"
+        android:name="com.example.cinevibes.ui.home.fragment.ricerca.PlatformsFragment"
+        android:label="fragment_platforms"
+        tools:layout="@layout/fragment_platforms" >
+        <action
+            android:id="@+id/action_platformsFragment_to_typeFragment"
+            app:destination="@id/typeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/typeFragment"
+        android:name="com.example.cinevibes.ui.home.fragment.ricerca.TypeFragment"
+        android:label="fragment_type"
+        tools:layout="@layout/fragment_type" >
+        <action
+            android:id="@+id/action_typeFragment_to_emotionsFragment"
+            app:destination="@id/emotionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emotionsFragment"
+        android:name="com.example.cinevibes.ui.home.fragment.ricerca.EmotionsFragment"
+        android:label="fragment_emotions"
+        tools:layout="@layout/fragment_emotions" >
+        <action
+            android:id="@+id/action_emotionsFragment_to_optionsFragment"
+            app:destination="@id/optionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/optionsFragment"
+        android:name="com.example.cinevibes.ui.home.fragment.ricerca.OptionsFragment"
+        android:label="fragment_options"
+        tools:layout="@layout/fragment_options" />
+</navigation>

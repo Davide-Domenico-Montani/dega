@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginStart="@dimen/margin"
+    android:layout_marginEnd="@dimen/margin"
+    tools:context=".ui.home.fragment.SettingsFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/titolo" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/modifica_profilo"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        app:icon="@drawable/baseline_edit_24">
+    </Button>
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="280dp"
+        android:checked="true"
+        android:text="@string/modalit_scura" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/assistenza"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_marginTop="350dp"
+        android:layout_gravity="center_horizontal"
+        app:icon="@drawable/baseline_help_outline_24">
+    </Button>
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/log_out"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_marginTop="430dp"
+        android:layout_gravity="center_horizontal"
+        app:icon="@drawable/baseline_no_accounts_24">
+    </Button>
+
+</FrameLayout>

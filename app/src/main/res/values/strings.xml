@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">CineVibes</string>
+    <string name="accedi_al_tuo_account">Hai già un account? Accedi</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="accedi">Accedi</string>
+    <string name="crea_account">Crea nuovo account</string>
+    <string name="crea_un_nuovo_account">Crea un nuovo account</string>
+    <string name="nome">Nome</string>
+    <string name="cognome">Cognome</string>
+    <string name="età">Età</string>
+    <string name="hai_dimenticato_la_password">Hai dimenticato la password?</string>
+    <string name="modifica_profilo">Modifica profilo</string>
+    <string name="assistenza">Assistenza</string>
+    <string name="log_out">Log Out</string>
+    <string name="impostazioni">Impostazioni</string>
+    <string name="film">Film</string>
+    <string name="serie_tv">Serie TV</string>
+    <string name="entrambi">Entrambi</string>
+    <string name="home">Home</string>
+    <string name="esplora">Esplora il catalogo di film e serieTV</string>
+    <string name="lista">Lista</string>
+    <string name="seleziona_i_filtri_base">Seleziona i filtri base</string>
+    <string name="inizia_la_ricerca">Inizia la ricerca</string>
+    <string name="lingua">Lingua</string>
+    <string name="costo">Costo</string>
+    <string name="restrizioni_et">Restrizioni età</string>
+    <string name="la_mia_lista">La mia lista di preferiti</string>
+    <string name="titolo">Titolo</string>
+    <string name="generi">Generi</string>
+    <string name="anno">anno</string>
+    <string name="aggiungi_alla_lista">Aggiungi alla mia lista</string>
+    <string name="modalit_scura">Modalità scura</string>
+    <string name="visualizzazioni">visualizzazioni</string>
+    <string name="imdb_rating">IMDB Rating</string>
+    <string name="le_proposte_per_te">Le proposte per te</string>
+    <string name="come_vuoi_sentirti">Come vuoi sentirti?</string>
+    <string name="malinconico">Malinconico</string>
+    <string name="avventurioso">Avventurioso</string>
+    <string name="triste">Triste</string>
+    <string name="emotional">Emotional</string>
+    <string name="spaventato">Spaventato</string>
+    <string name="istruito">Istruito</string>
+    <string name="romantico">Romantico</string>
+    <string name="curioso">Curioso</string>
+    <string name="ispirato">Ispirato</string>
+    <string name="coraggioso">Coraggioso</string>
+    <string name="divertito">Divertito</string>
+    <string name="quali_piattaforme_di_streaming_possiedi">Quali piattaforme possiedi?</string>
+    <string name="apple_tv">Apple TV</string>
+    <string name="disney_plus">Disney Plus</string>
+    <string name="netflix">Netflix</string>
+    <string name="amazon_prime_video">Amazon Prime Video</string>
+    <string-array name="lingua_array">
+        <item>Italiano</item>
+        <item>Inglese</item>
+        <item>Francese</item>
+        <item>Qualsiasi</item>
+    </string-array>
+    <string name="acculturato">Acculturato</string>
+    <string name="energico">Energico</string>
+    <string name="conferma">Conferma</string>
+    <string-array name="costo_array">
+        <item>Gratis</item>
+        <item>A noleggio</item>
+        <item>Ad acquisto</item>
+        <item>Qualsiasi</item>
+    </string-array>
+    <string-array name="restrizioni_età_array">
+        <item>Nascondi +14</item>
+        <item>Nascondi +18</item>
+        <item>Tutti</item>
+    </string-array>
+    <string name="seleziona_cosa_vuoi_vedere">Cosa preferisci vedere?</string>
+    <string name="benvenuto">Benvenuto!</string>
+    <string name="accedi_con_google">Accedi con Google</string>
+    <string name="oppure">oppure</string>
+    <string name="scegli_i_filtri_base">Scegli i filtri base</string>
+    <string name="error_login">login error</string>
+    <string name="unexpected_error">unexpected error\n</string>
+</resources>
